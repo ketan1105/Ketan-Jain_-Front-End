@@ -1,15 +1,15 @@
-# Ketan-Jain_-Front-End
+# Ketan-Jain_Front-End
 
 ## Q1) Explain what the simple List component does.
 
 Answer->
-Lists can be created in a similar way as we create lists in JavaScript.The list component contains list items.
-List is used to store multiple items of the same and different datatype under a variable like array.
-Here single list item is stored inside WrappedSingleListItem.
-React.memo(WrappedListComponent) returns a new memoized component List.
-List render is memoized but the outputs of List is same content as the original WrappedListComponent component.items array is used to store these list items and then each item is looped through using map() function and displayed. The background color of text changes according to the isSelected state, which is dependent on selectedIndex.
-const [selectedIndex, setSelectedIndex] = useState(true); //Green color
-const [selectedIndex, setSelectedIndex] = useState(); //Red color
+Lists can be created in a similar way as we create lists in JavaScript.The list component contains list items.<br>
+List is used to store multiple items of the same and different datatype under a variable like array.<br>
+Here single list item is stored inside WrappedSingleListItem.<br>
+React.memo(WrappedListComponent) returns a new memoized component List.<br>
+List render is memoized but the outputs of List is same content as the original WrappedListComponent component.items array is used to store these list items and then each item is looped through using map() function and displayed. The background color of text changes according to the isSelected state, which is dependent on selectedIndex.<br>
+const [selectedIndex, setSelectedIndex] = useState(true); //Green color<br>
+const [selectedIndex, setSelectedIndex] = useState(); //Red color<br>
 
 ## Q2) What problems / warnings are there with code ?
 
